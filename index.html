@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <!-- Please add the favicon icon with you name initials  -->
+     <link rel="shortcut icon" href="assets/fav.png" type="image/x-icon">
+
+     <!-- Google font family CDN link-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+
+     <!-- Font Awesome CHN link-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+       <!-- Internal CSS -->
+    <style>
+      *{
+        font-family: "Roboto", sans-serif;
+      }
+      .header-info{
+        margin-left: 10px;
+        margin: 30px;
+      }
+     nav a{
+      margin-left: 20px;
+      font-family: "Poetsen One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      font-size: 1.5em 0px 2px rgba(181, 213, 17, 06);
+     }
+     #cv-download:hover{
+      color:rgb(2, 94, 2) ;
+      text-transform: capitalize;
+      background-color: rgb(251, 206, 206);
+
+     }
+      .careerSummery{
+        color: rgb(42, 42, 247);
+        background-color: rgb(243, 220, 191);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+        font-size: 19px;
+      }
+      .header{
+        color: rgb(98, 8, 182);
+        background-color: rgb(157, 203, 241);
+      }
+      /*==== home section CSS ====*/
+      .careerSummery{
+        font-family: "Signika Negative", sans-serif;
+      }
+      #home li{
+        padding: 0 0 10px 0px;
+        list-style-type: circle;
+      }
+      #home li::before{
+        content: "✍️";
+        padding-right: 10px;
+      }
+      #home li:hover{
+        color: rgb(2, 60, 2);
+      }
+      #home li::section{
+        background-color: bisque;
+      }
+      /* TECH STACK Section */
+      #tech th, td{
+        padding: 10px;
+      }
+      /* #tech td{
+        padding: 10px;
+      } */
+       #tech table tr:hover{
+        background-color: rgb(92, 150, 153);
+        color: white;
+       }
+      #rolesResp{
+        /* list-style-type: lower-alpha; */
+        /* list-style-type: lower-roman; */
+        /* list-style-type: upper-roman; */
+      }
+      #rolesResp li:hover{
+        color: green;        
+      }
+      #rolesResp li::before{
+        content: "👍";   
+        padding-right: 10px;     
+      }
+      table,td,th{
+          border: 1px solid rgb(27, 27, 27);
+          border-collapse: collapse;
+        }
+      #experience{
+        color: red;
+        background-color: rgb(245, 245, 70);
+      }
+      #education table tr th:hover{
+        background-color: rgb(154, 168, 168);
+        color: maroon;        
+      } 
+      #education table tr td:hover{
+        background-color: gray;
+        color:blue;
+      } 
+      .followLinks{
+       padding-left: 10px;
+       padding-right: 10px;
+       text-align: center;
+      }
+      .applyAlign{
+        text-align: center;
+      }
+      .applychanges{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: underline;
+        font-size: 19px;
+      }
+     </style>
+</head>
+<body>
+    <!-- Header Section -->
+     <header class="header"> <!--- Section ---->
+         <i class="fa fa-lg fa-user" aria-hidden="true"></i>
+          <strong class="header-info">Nisha Phadtare</strong>
+
+          <i class="fa fa-lg fa-phone-square" aria-hidden="true"></i>
+          <strong class="header-info">9096 456 9356</strong>
+
+          <i class="fa fa-lg fa-envelope" aria-hidden="true"></i>
+          <strong class="header-info">nishaphadtare03@gmail.com</strong>
+
+        </header>
+        <br>
+     <!-- ============ Navigation Section ==============  -->
+      <nav>
+            <a href="#home">HOME</a> 
+            <a href="#tech">TECH STACK</a> 
+            <a href="#education">EDUCATION</a>
+            <a href="#project">PROJECT</a> 
+            <a href="#others">OTHERS</a> 
+            <a href="assets/Nisha_Phadtare_8month_Exp_Resume.docx"><button type="button" id="cv-download">Download CV</button></a>
+      </nav>
+      <!-- ============== Main or Body Section ==============  -->
+
+       <!-- ============HOME SECTION============= -->
+        <h2 class="" class="applychanges">Career Objectives</h2>
+        <p>To work in Organization where I can learn and grow my skills and help organizational growth</p>
+        <section id="home">
+          <h2>HOME SECTION</h2>
+          <h3 class="careerSummery" class="applychanges">Professional Summery</h3>
+          <ul>
+            <li>Having 1 years of experience in developing Single page Web Application using Angular 5, HTML5, CSS3,Bootstrap5,JavaScript,TypeScript</li>
+            <li>11experience on working with version control system - GIT and GitHub</li>
+            <li id="experience">Experience working with JIRA for user and bug tracking </li>
+            <li>Strong debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+            <li>Working experience on ID's like VS Code and Notepad++</li>
+            <li>Good working experience under Agile methodologies environment</li>
+            <li>Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
+            <li>Knowledge of NodeJS</li>
+            <li>Ability to work with people at all level in the program</li>
+          </ul>
+        </section>
+        <hr>
+       <!-- ============TECH SECTION============= -->
+        <section id="tech">
+          <h2 class="applychanges"> Technology Stack</h2>
+          <table>
+            <thead>
+              <tr>
+              <th>Sr.No</th>
+              <th>Technology Stack</th>
+              <th>Rating</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>1</td>
+              <td>HTML</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>CSS</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Javascript</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Angular</td>
+              <td>3</td>
+            </tr>
+            </tbody>
+            
+          </table>
+        </section>
+        <hr>
+
+       <!-- ============EDUCATION SECTION============= -->
+        <section id="education">
+          <h2 class="applychanges">My Educational Details</h2>
+          <table>
+             <thead>
+              <tr>
+                <th>Qaulification</th>
+                <th>School/College</th>
+                <th>Board/University</th>
+                <th>Year</th>
+                <th>Petcentage</th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr>
+                <td>BE</td>
+                <td>CSMIT, Shedung, Panvel</td>
+                <td>Mumbai</td>
+                <td>2019</td>
+                <td>61.27%</td>
+              </tr>
+              <tr>
+                <td>Diploma</td>
+                <td>VJTI, Matunga, Mumbai</td>
+                <td>Autonoumous</td>
+                <td>2016</td>
+                <td>72.29%</td>
+              </tr>
+              <tr>
+                <td>SCC</td>
+                <td>DVS High School,KoparKhairane,Navi Mumbai</td>
+                <td>State Board</td>
+                <td>2013</td>
+                <td>90.73%</td>
+              </tr>
+             </tbody>
+          </table>
+        </section>
+        <hr>
+
+       <!-- ============PROJECT SECTION============= -->
+        <section id="project">
+          <h2 class="applychanges">Project Details</h2>
+          <hr />
+          <p>
+            <strong
+              >Name:
+              <u>Student Management</u>
+            </strong>
+          </p>
+          <p>
+            <strong>Environment: </strong>Angular, React, Java, JavaScript,
+            TypeScript, HTML, CSS, Bootstrap, GitHub, Agile and JIRA
+          </p>
+          <p>
+            <strong>Team Size: 06</strong>
+             <strong>Duration:</strong>
+             <i>2021-1<sup>st</sup>-july</i> till <u>present</u>
+          </p>
+          <p>
+            <strong>Project Description:</strong> This project is mainly used for
+            student management in colleges, where it helps to manage student record
+            like student registration, student update, and to see all the list of
+            academic activities like score card and attendance
+          </p>
+          <hr />
+      
+          <h2>Role and Responsibilities</h2>
+          <ol id="rolesResp">
+            <li>Designed and Implemented the user interface using HTML5 and CSS3</li>
+            <li>Work closely with backend developers for code integration</li>
+            <li>Identifying and troubleshooting issues in front codebase</li>
+            <li>Worked in GIt as a version control</li>
+            <li>Used JIRA for beg tracking</li>
+            <li>
+              Implemented project using Agile SCRUM methodology, involved in daily
+              stand up calls, sprint retrospective meetings
+            </li>
+            <li>involved in fixing technical issue in production environment</li>
+          </ol>
+      
+        </section>
+        <hr>
+
+       <!-- ============Profile Photo============= -->
+
+       <section id="others">
+        <h2 class="applychanges">PROFILE PHOTO</h2>
+        <img src="assets/devloper.png" alt="Developer Photo" width="250", height="150">
+        <h4>Mohit Sharma</h4>
+        <p><strong>Mobile Number:</strong>9900 8890 66</p>
+        <p><strong>Email:</strong>mohit_swharma@gmail.com</p>
+        <p><strong>Date of birth:</strong>feb-19-2004</p>
+        <p><strong>Address:</strong>OM Colony,Pune</p>
+       </section>
+       <hr>
+       <h3>Family Details</h3>
+       <ul>
+        <li>Father Name: Kakasaheb Phadtare</li>
+        <li>Mother Name: Laxmi Phadtare</li>
+       </ul>
+
+              <!-- ============OTHERS SECTION============= -->
+              <h2 class="applychanges">OTHERS SECTION</h2>
+              <ul>
+                <li><strong>Hobbies</strong>Reading , cooking, listening to music  </li>
+                <li><strong>personal Strength</strong>HardWorking, Honest</li>
+              </ul>
+
+ 
+
+       <!--============== Footer Section ==============-->
+       
+    <h2 class="applychanges">FOLLOW US ON</h2>
+     <a href="https://www.linkedin.com/" target="_blank" class="applyAlign">
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i>   
+     </a>
+     <a href="https://www.instagram.com/" target="_blank" class="applyAlign">
+      <i class="fa fa-instagram" aria-hidden="true"></i>             
+     </a>
+
+     <a href="https://www.facebook.com/" target="_blank" class="applyAlign">
+      <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    </a>
+     <a href="https://www.youtube.com/" target="_blank" class="applyAlign">
+      <i class="fa fa-youtube-play" aria-hidden="true"></i>
+    </a>
+</body>
+</html>
